@@ -1,0 +1,234 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    background-color: #ffffff;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #b6b1b1;
+}
+.myntra_home {
+    height: 45px;
+}
+.logo_container {
+    margin-left: 4%;
+}
+.action_bar {
+    margin-right: 4%;
+}
+.nav_bar {
+    display: flex;
+    min-width: 500px;
+    justify-content: space-evenly;
+}
+.nav_bar a {
+    font-size: 14px;
+    letter-spacing: .3px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 28px 0;
+    border-bottom: 5px solid #ffffff;
+}
+.nav_bar a:hover {
+    border-bottom: 4px solid #f54e77;
+}
+
+
+.search_bar {
+    height: 40px;
+    min-width: 200px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.search_icon {
+    box-sizing: content-box;
+    height: 20px;
+    padding: 10px;
+
+    background-color: #f5f5f6;
+    color: #282c3f;
+    font-weight: 300;
+    border-radius: 4px 0 0 4px;
+}
+.search_input {
+    color: #696e79;
+    background-color: #f5f5f6;
+    flex-grow: 1;
+    height: 40px;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+}
+.action_bar {
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+}
+
+.action_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.drop {
+    width: 1500px;
+    height: auto;
+    background: linear-gradient(to top, #e9a745, rgba(255, 191, 95, 0.8), #ffffff);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.ban {
+    height: 50%;
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.bottom {
+    position: absolute;
+    top: 345px; /* Adjusted to place at the bottom center of the banner image */
+    left: 45%;
+    font-size: xxx-large;
+    transform: translateX(-50%);
+    color: rgb(246, 246, 246);
+    font-weight: bolder;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: 'Your Script Font', cursive;
+    z-index: 2; /* Ensure this element appears above other elements */
+}
+
+.botton-line {
+    position: absolute;
+    top: 380px; /* Adjusted to place at the bottom center of the banner image, below "New & Trending" */
+    left: 45%;
+    font-size: x-large;
+    transform: translateX(-50%);
+    color: rgb(246, 246, 246);
+    font-weight: bolder;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: 'Your Script Font', cursive;
+    z-index: 2;
+}
+
+.arrow {
+    margin-left: 5px;
+    font-size: 2em;
+    color: rgb(246, 246, 246); /* Ensure the arrow color contrasts with the background */
+}
+
+.category_heading {
+    text-align: left;
+    padding-left: 1%;
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 20px; /* Add some space above */
+}
+
+.category_items {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    padding-left:1%;
+    background: rgba(255, 191, 95, 0.8); /* Semi-transparent background */
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+}
+
+.sale_item {
+    margin: 0 5px;
+}
+
+.gen {
+    width: 100%;
+    padding: 20px 0; /* Add some space at the top and bottom */
+    background:rgba(131, 138, 203, 0.8); /* Semi-transparent background */
+    text-align: left;
+}
+
+.gen_heading {
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.gen_items {
+    display: flex;
+    justify-content: center; /* Align items horizontally */
+    padding: 10px;
+    gap: 20px; /* Space between items */
+    background: rgba(140, 147, 211, 0.8); /* Semi-transparent background */
+    z-index: 1;
+    position: relative;
+}
+
+.gen_item {
+    background: rgba(178, 184, 241, 0.8); /* Same background as gen_items */
+    padding: 10px; /* Add padding to create spacing effect */
+    border-radius: 10px; /* Optional: round the corners */
+    text-align: center;
+}
+
+.sale_gen {
+    width: 80%; /* Adjust the size of the images */
+    margin-bottom: 5px;
+}
+
+.item_text {
+    font-size: large; 
+    font-weight: bold;/* Adjust the size of the text */
+}
+
+.shop-link {
+    font-size: x-large;
+    color: rgb(246, 246, 246);
+    font-weight: bolder;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: 'Your Script Font', cursive;
+    text-decoration: none; /* Remove underline from link */
+}
+
+.footer_container {
+    padding: 30px 0px 40px 0px;
+    background: #FAFBFC;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_column h3 {
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.footer_column a {
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.copyright {
+    color: #94969f;
+    text-align: end;
+    padding: 15px;
+}
